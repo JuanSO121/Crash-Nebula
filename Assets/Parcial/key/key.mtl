@@ -1,0 +1,32 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Index
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Bump Index_normal.png
+map_Kd Index_albedo.png
+map_Ke Index_emissive.png
+map_Ns Index_roughness.png
+refl Index_metallic.png
+
+newmtl Rod
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Bump Rod_normal.png
+map_Kd Rod_emissive.png
+map_Ke Rod_emissive.png
+map_Ns Rod_roughness.png
+refl Rod_metallic.png

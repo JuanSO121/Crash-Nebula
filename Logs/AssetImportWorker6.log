@@ -1,0 +1,1070 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 15710 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/sanch/Documents/USB/VideoJuegosII/Crash Nebula
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+56978
+Successfully changed project path to: C:/Users/sanch/Documents/USB/VideoJuegosII/Crash Nebula
+C:/Users/sanch/Documents/USB/VideoJuegosII/Crash Nebula
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9104] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2023098620 [EditorId] 2023098620 [Version] 1048832 [Id] WindowsEditor(7,Juanjo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9104] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2023098620 [EditorId] 2023098620 [Version] 1048832 [Id] WindowsEditor(7,Juanjo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 11.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sanch/Documents/USB/VideoJuegosII/Crash Nebula/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007170 seconds.
+- Loaded All Assemblies, in  0.292 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.244 seconds
+Domain Reload Profiling: 535ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (244ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.546 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.723 seconds
+Domain Reload Profiling: 1267ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (127ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (585ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3332 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (132.2 KB). Loaded Objects now: 3804.
+Memory consumption went from 140.1 MB to 140.0 MB.
+Total: 3.234100 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.089700 ms MarkObjects: 2.780300 ms  DeleteObjects: 0.137300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.439 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.152 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1153ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (605ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (504ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3305 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (102.4 KB). Loaded Objects now: 3819.
+Memory consumption went from 135.9 MB to 135.8 MB.
+Total: 2.926000 ms (FindLiveObjects: 0.236200 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.522300 ms  DeleteObjects: 0.062400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81986.992280 seconds.
+  path: Assets/Parcial/Scripts/EnemySpawner.cs
+  artifactKey: Guid(a692478e76c74f44282460753be9672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parcial/Scripts/EnemySpawner.cs using Guid(a692478e76c74f44282460753be9672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d555ddafad7d73afd0cd9d33495d45e') in 0.005156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.377 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.975 seconds
+Domain Reload Profiling: 1350ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (975ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (102.4 KB). Loaded Objects now: 3834.
+Memory consumption went from 137.7 MB to 137.6 MB.
+Total: 3.612400 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.188000 ms MarkObjects: 3.080100 ms  DeleteObjects: 0.086800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.386 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.959 seconds
+Domain Reload Profiling: 1344ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (959ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3305 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (102.3 KB). Loaded Objects now: 3849.
+Memory consumption went from 139.8 MB to 139.7 MB.
+Total: 2.999900 ms (FindLiveObjects: 0.248700 ms CreateObjectMapping: 0.105200 ms MarkObjects: 2.576900 ms  DeleteObjects: 0.068300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 478.833128 seconds.
+  path: Assets/PolygonSciFiSpace/Prefabs/Signs/SM_SignBorder_Fire_01.prefab
+  artifactKey: Guid(304767dfffbc3174888e06c033fc4c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Prefabs/Signs/SM_SignBorder_Fire_01.prefab using Guid(304767dfffbc3174888e06c033fc4c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a393e01f253647d3d3d08cc24ceeed32') in 0.094816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 5.494946 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_AirVent_Large_01_Convex.asset
+  artifactKey: Guid(bb8c346384bb5cb4c9cb7d5a9a0607ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_AirVent_Large_01_Convex.asset using Guid(bb8c346384bb5cb4c9cb7d5a9a0607ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c7a6585b122031a23139972fc490d2') in 0.020398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Antenna_01_Convex.asset
+  artifactKey: Guid(d9abce0d668736f4f834862838bfa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Antenna_01_Convex.asset using Guid(d9abce0d668736f4f834862838bfa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d2c6195edfb432bba564383ec5ef30') in 0.008073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Battery_01_Convex.asset
+  artifactKey: Guid(8505e241ce0527049b5eb141bae4c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Battery_01_Convex.asset using Guid(8505e241ce0527049b5eb141bae4c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3796ccf0adec7d2fa4df81a4fca9453') in 0.009878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Battery_02_Convex.asset
+  artifactKey: Guid(08120df7307664245a9b6624e5c6fe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Battery_02_Convex.asset using Guid(08120df7307664245a9b6624e5c6fe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a283f4a99e3f4066d10f8b3b7948271') in 0.006238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.194367 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Battery_03_Convex.asset
+  artifactKey: Guid(ad5cd1ce3c79f2048aa7311e724b6473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Battery_03_Convex.asset using Guid(ad5cd1ce3c79f2048aa7311e724b6473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3bc224d25ff0a4e72273156dd077bc') in 0.006141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Bed_02_Convex.asset
+  artifactKey: Guid(a151f6f4033c43b47967a75202c6e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Bed_02_Convex.asset using Guid(a151f6f4033c43b47967a75202c6e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ff9e45c8f626b0ead370cef8a5b641') in 0.005551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.628419 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Bed_03_Convex.asset
+  artifactKey: Guid(64df5715338dd5a4f94263fb7b601ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Bed_03_Convex.asset using Guid(64df5715338dd5a4f94263fb7b601ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b23aa490e3221f7aa187e92a3b96ce') in 0.005964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018192 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_01_Convex.asset
+  artifactKey: Guid(3a7665620e0a7fe4a8f67779eff6b74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_01_Convex.asset using Guid(3a7665620e0a7fe4a8f67779eff6b74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a9d954fa4773a9c2e549843487239a') in 0.005530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.439857 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_03_Convex.asset
+  artifactKey: Guid(794b0bc9c2396f8408fa855f22c618ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_03_Convex.asset using Guid(794b0bc9c2396f8408fa855f22c618ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5947c9662f76cdfac695537fcaf57a72') in 0.006441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034635 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_05_Convex.asset
+  artifactKey: Guid(48c70c9b62c2cbd4a9d70a8143c65b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_05_Convex.asset using Guid(48c70c9b62c2cbd4a9d70a8143c65b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7090d1ce34ace34ffc2525eaa3c46bdf') in 0.005625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.023319 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_07_Convex.asset
+  artifactKey: Guid(5ba70c81fc404a34d97f79c6f8bac519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_07_Convex.asset using Guid(5ba70c81fc404a34d97f79c6f8bac519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8a7ac70654e2e20644d4b67a1079e5') in 0.005312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.378153 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_10_Convex.asset
+  artifactKey: Guid(ba3ec232968708e4b94a3d1e1307fb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_10_Convex.asset using Guid(ba3ec232968708e4b94a3d1e1307fb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986e25b09b585b07c90672b391437774') in 0.005857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.088217 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_12_Convex.asset
+  artifactKey: Guid(2108cd147dd7def4a8e63f6fbba0679a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_12_Convex.asset using Guid(2108cd147dd7def4a8e63f6fbba0679a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c26297c08ec8e29ad21c253170f7be') in 0.006240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.328702 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_14_Convex.asset
+  artifactKey: Guid(d6acf903a6c7ca64f90e156738e5e2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Buttons_14_Convex.asset using Guid(d6acf903a6c7ca64f90e156738e5e2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db022d8ca2bf4e4bac4b2b77cc4f48f') in 0.007005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.042851 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Cart_Filled_01_Convex.asset
+  artifactKey: Guid(180db8f1dbd1d6e4aa557020bba52aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Cart_Filled_01_Convex.asset using Guid(180db8f1dbd1d6e4aa557020bba52aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc899cbe289e5d130f53dc8c10a39bb') in 0.006560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.328105 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Chr_Female_Cryo_01_Convex.asset
+  artifactKey: Guid(954865e3ec51af048a5a19c409c079b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Chr_Female_Cryo_01_Convex.asset using Guid(954865e3ec51af048a5a19c409c079b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a54e7c5e679ca58f9eec581b32cde9d') in 0.007030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.050890 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Chr_Female_Cryo_02_Convex.asset
+  artifactKey: Guid(c84a4fb4131a75042a057e7074ed319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Chr_Female_Cryo_02_Convex.asset using Guid(c84a4fb4131a75042a057e7074ed319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9a27baf65ad8e898ba4dc19d9920a9') in 0.006670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002614 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_ControlPanel_01_Convex.asset
+  artifactKey: Guid(a85bf393eb2442e4bb50dc03b2a67d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_ControlPanel_01_Convex.asset using Guid(a85bf393eb2442e4bb50dc03b2a67d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904e36fd143c3142c77a31b97523f764') in 0.005791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033379 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_ControlPanel_02_Convex.asset
+  artifactKey: Guid(e87fa03b44bcf224f971597139a2dd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_ControlPanel_02_Convex.asset using Guid(e87fa03b44bcf224f971597139a2dd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3aa0212ee920f0dcc9d961ea254cf0') in 0.005951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.336987 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_CornerSeat_01_Convex.asset
+  artifactKey: Guid(9221b725ba192db4cb8c9d1d29dcc660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_CornerSeat_01_Convex.asset using Guid(9221b725ba192db4cb8c9d1d29dcc660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31bdffb99dacf08f8910020273da558') in 0.007654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038849 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Crate_01_Convex.asset
+  artifactKey: Guid(e91820d93c8f5664f84a2a6745ef6f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Crate_01_Convex.asset using Guid(e91820d93c8f5664f84a2a6745ef6f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b7a5ed668f7b873af09112dfd6ed47') in 0.009418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013195 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Crate_Ammo_01_Convex.asset
+  artifactKey: Guid(e2f337948d96f14419395c89de99ae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Crate_Ammo_01_Convex.asset using Guid(e2f337948d96f14419395c89de99ae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13031b442850970115ec8caedb64f7ee') in 0.005826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.429826 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Crate_Wide_01_Convex.asset
+  artifactKey: Guid(230e54622c6a6764fa831732b6170349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Crate_Wide_01_Convex.asset using Guid(230e54622c6a6764fa831732b6170349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c4a911fe7fb59c15aae71969366e6d') in 0.006510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038388 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_CryoBed_01_Convex.asset
+  artifactKey: Guid(8232bbb1084b38e40858d3361fe120bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_CryoBed_01_Convex.asset using Guid(8232bbb1084b38e40858d3361fe120bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd485d025dc7c55ba1b91e173ff1825') in 0.005456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013082 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_DeadZub_01_Convex.asset
+  artifactKey: Guid(9df5e291992cd2a469baee0ed3e589e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_DeadZub_01_Convex.asset using Guid(9df5e291992cd2a469baee0ed3e589e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9d253b94521e857c244904b2bcdb96') in 0.005674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.326456 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Desk_Small_01_Convex.asset
+  artifactKey: Guid(5eb822a0603e9b348945b40cfe841ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Desk_Small_01_Convex.asset using Guid(5eb822a0603e9b348945b40cfe841ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab7fd52af8f5740fd5c72bcfaa36c17') in 0.006539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020946 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Box_01_Convex.asset
+  artifactKey: Guid(c831222a572444f4eb73086a7523f979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Box_01_Convex.asset using Guid(c831222a572444f4eb73086a7523f979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94a611fcaa4a1b398c011eb59752318') in 0.005599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025863 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Box_03_Convex.asset
+  artifactKey: Guid(727712c499095e94a823511522f42003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Box_03_Convex.asset using Guid(727712c499095e94a823511522f42003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944caa5743cee07ec1460af7812c1f2f') in 0.005930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029350 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Box_05_Convex.asset
+  artifactKey: Guid(e245e6befec7aa849aa947238e2358d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Box_05_Convex.asset using Guid(e245e6befec7aa849aa947238e2358d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fff7176d3f426c1a791f60c6f18b4b') in 0.005672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.286656 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_CeilingBox_01_Convex.asset
+  artifactKey: Guid(7cfad0ec1aa916748848c2949cc46b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_CeilingBox_01_Convex.asset using Guid(7cfad0ec1aa916748848c2949cc46b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6a22e8b45c4509135f6a9c367ef458') in 0.006555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020725 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_CeilingBox_03_Convex.asset
+  artifactKey: Guid(9abbecc60b51ef64394df7d0bc6a3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_CeilingBox_03_Convex.asset using Guid(9abbecc60b51ef64394df7d0bc6a3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47facefbe96abd9ba0c9d75f323af6fa') in 0.005555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.031711 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Handle_02_Convex.asset
+  artifactKey: Guid(c1a76c30c71a6b34ab8b1208b94f09d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Handle_02_Convex.asset using Guid(c1a76c30c71a6b34ab8b1208b94f09d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee9bdb0cbd4bbca224019eb33d6c213') in 0.005872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016202 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Lights_01_Convex.asset
+  artifactKey: Guid(b59d5d020b164fe4aba3241dbf2f85bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Lights_01_Convex.asset using Guid(b59d5d020b164fe4aba3241dbf2f85bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc46edd36407793efdcb3ff9c4e84d8e') in 0.005619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.278737 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Machine_01_Convex.asset
+  artifactKey: Guid(b79965469ca5fa942bf703e1206796d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Machine_01_Convex.asset using Guid(b79965469ca5fa942bf703e1206796d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd3035c5cf1d8c7d593a15c83314e08') in 0.006479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.056031 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Panel_Broken_01_Convex.asset
+  artifactKey: Guid(643a42f76a4a3e64a9ebd3d0c73edac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Panel_Broken_01_Convex.asset using Guid(643a42f76a4a3e64a9ebd3d0c73edac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287551409ac911ebb4e12e2c0076f838') in 0.005668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021024 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Pipe_01_Convex.asset
+  artifactKey: Guid(bb48abebbb7fc5543a774c63cf7504fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Pipe_01_Convex.asset using Guid(bb48abebbb7fc5543a774c63cf7504fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e3aae7e157f8007d7c0801c4774cce') in 0.006070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.340579 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Pipe_Broken_01_Convex.asset
+  artifactKey: Guid(8cd1f5ed74b8c2a40a9de6315b53370e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Pipe_Broken_01_Convex.asset using Guid(8cd1f5ed74b8c2a40a9de6315b53370e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d92f202f4de4582e52f115af7685c9') in 0.005945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039444 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Pipes_01_Convex.asset
+  artifactKey: Guid(2d75a3497f445c14e8eac27c913a2590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Pipes_01_Convex.asset using Guid(2d75a3497f445c14e8eac27c913a2590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b2a24cc745d28569369647f7aa09cc') in 0.006423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039008 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Pipes_02_Convex.asset
+  artifactKey: Guid(ccee6cea08cf22b4fb53fb40d6a0fc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Pipes_02_Convex.asset using Guid(ccee6cea08cf22b4fb53fb40d6a0fc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fc2b0dde258ced476e701790ef598d') in 0.005604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.366644 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Struts_01_Convex.asset
+  artifactKey: Guid(df6793779ccff0e4a9ad263b518d2ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Struts_01_Convex.asset using Guid(df6793779ccff0e4a9ad263b518d2ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab18513a6ec01dad2d3c416281b620a') in 0.006779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.044728 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_SynCola_01_Convex.asset
+  artifactKey: Guid(c6b73d3b49babf24aad5f88b5d2a59a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_SynCola_01_Convex.asset using Guid(c6b73d3b49babf24aad5f88b5d2a59a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ba97c4c5f8b254c89fb1c824c2bff4') in 0.007574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038895 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Tank_02_Convex.asset
+  artifactKey: Guid(35d0c3074bbe0d84b9717d2b3958a3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Tank_02_Convex.asset using Guid(35d0c3074bbe0d84b9717d2b3958a3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e34b5db468a4ea82ee038a9bdd9172a') in 0.006323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.318559 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Wire_01_Convex.asset
+  artifactKey: Guid(70db9ce6ca5ed4a4fb29f3c98acbefc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Wire_01_Convex.asset using Guid(70db9ce6ca5ed4a4fb29f3c98acbefc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac6b3708d0bf9883ec51c8b1c3f9c21') in 0.007033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.053149 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Wire_03_Convex.asset
+  artifactKey: Guid(f4097728646ae904e99c2c33e4693abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Wire_03_Convex.asset using Guid(f4097728646ae904e99c2c33e4693abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f762da76737f28d9988d5edad622b7a') in 0.006922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Wirebox_01_Convex.asset
+  artifactKey: Guid(e255317e3936b3342a8644b6e8fbd069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Detail_Wirebox_01_Convex.asset using Guid(e255317e3936b3342a8644b6e8fbd069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e20b5699cf5e2dd20763327f5277575') in 0.006905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.088814 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Engine_Construction_01_Convex.asset
+  artifactKey: Guid(cd31b55f95832664891dcaa9c25bff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Engine_Construction_01_Convex.asset using Guid(cd31b55f95832664891dcaa9c25bff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014c8eeeb3a9b4f0813f96bbc00470c5') in 0.007243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.279115 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_EscapePod_Hatch_Large_01_Convex.asset
+  artifactKey: Guid(6e581cfa377fefb4ebbe1b01d9509913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_EscapePod_Hatch_Large_01_Convex.asset using Guid(6e581cfa377fefb4ebbe1b01d9509913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c4c52fcd68b9f9de5fc592a1bf5e49') in 0.006799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.043699 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_FoodPacket_02_Convex.asset
+  artifactKey: Guid(8c932684723a78e46a2f8e2787a06ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_FoodPacket_02_Convex.asset using Guid(8c932684723a78e46a2f8e2787a06ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a525152d95d558753e7304b61c35f355') in 0.005385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.030561 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_FoodPacket_04_Convex.asset
+  artifactKey: Guid(63b23645b92fca94bae9bb5ce55cc038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_FoodPacket_04_Convex.asset using Guid(63b23645b92fca94bae9bb5ce55cc038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1b9034b55aab9c00e7bca51342b8a7') in 0.005798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.881721 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Greeble_Cube_01_Convex.asset
+  artifactKey: Guid(4c9b2b1259639fe428c1da2efe184758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Greeble_Cube_01_Convex.asset using Guid(4c9b2b1259639fe428c1da2efe184758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94192a4a682510bebb346197c3b90dd3') in 0.006015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.332512 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Greeble_Panel_02_Convex.asset
+  artifactKey: Guid(35603332d100d4846aea9fe6b2ae8ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Greeble_Panel_02_Convex.asset using Guid(35603332d100d4846aea9fe6b2ae8ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4647b9af667817d2563890ef183bc93') in 0.006552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020131 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Greeble_Panel_04_Convex.asset
+  artifactKey: Guid(175042fd7dcc2c44b88aab7ba636c9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Greeble_Panel_04_Convex.asset using Guid(175042fd7dcc2c44b88aab7ba636c9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bf0c9814ace5b67541b92b3adf7df9') in 0.007016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.334564 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Greeble_Panel_07_Convex.asset
+  artifactKey: Guid(6c555c11ec8449e40a0b8535e7f91833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Greeble_Panel_07_Convex.asset using Guid(6c555c11ec8449e40a0b8535e7f91833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2182d8b4094a7d40aebd1581f0590344') in 0.006974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038939 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_HandScanner_01_Convex.asset
+  artifactKey: Guid(d8a8c46481173034286b3f5ba20a2795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_HandScanner_01_Convex.asset using Guid(d8a8c46481173034286b3f5ba20a2795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a69508eedf4fcc8a0412e1c5cce93a') in 0.006863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016751 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Light_Small_01_Convex.asset
+  artifactKey: Guid(1a9e6f476e877294fad722bcb10e6352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Light_Small_01_Convex.asset using Guid(1a9e6f476e877294fad722bcb10e6352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e9b8ccba03454077cb561830c1886a') in 0.005893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Light_Small_04_Convex.asset
+  artifactKey: Guid(f0348ce1e0f440d469db178a03a0fb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Light_Small_04_Convex.asset using Guid(f0348ce1e0f440d469db178a03a0fb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973a59f25be440dc71fae5630435a045') in 0.006198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000801 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Light_Small_07_Convex.asset
+  artifactKey: Guid(49d3299ea551d514d8e76cd7a110258f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Light_Small_07_Convex.asset using Guid(49d3299ea551d514d8e76cd7a110258f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ea42698dfb255d44652447a2a00ce7') in 0.006363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019159 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Missile_01_Convex.asset
+  artifactKey: Guid(67a57f3fc06b8f449997b00d8d396431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Missile_01_Convex.asset using Guid(67a57f3fc06b8f449997b00d8d396431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0b6bdb3453e15d37fc712b1623578f') in 0.005735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000758 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Missile_04_Convex.asset
+  artifactKey: Guid(59f0300923661fe4994eaa2d415ae28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Missile_04_Convex.asset using Guid(59f0300923661fe4994eaa2d415ae28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb033d1d5621217e7119e79dd50d022') in 0.006261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024787 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Missile_07_Convex.asset
+  artifactKey: Guid(490233654796bad48890db011b2819a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Missile_07_Convex.asset using Guid(490233654796bad48890db011b2819a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02c45444276cfd48dd331147e908f79') in 0.005887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Oxygen_Tank_Small_Convex.asset
+  artifactKey: Guid(c5923837e5f33cc40a44b6959d0feefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Oxygen_Tank_Small_Convex.asset using Guid(c5923837e5f33cc40a44b6959d0feefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7c1e5c98ff7115b2352652cf6c18e8') in 0.007031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017740 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Screen_11_Convex.asset
+  artifactKey: Guid(548965669c66cd241b4e5603c9e50744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Screen_11_Convex.asset using Guid(548965669c66cd241b4e5603c9e50744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5811176cad860d8a05b2cb5d35a9557') in 0.005994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Sink_01_Convex.asset
+  artifactKey: Guid(db80688db3efd4c449c70aba09603aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Sink_01_Convex.asset using Guid(db80688db3efd4c449c70aba09603aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3134a37c383be204ad89cf02c352d46f') in 0.006516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_SpaceWalk_Tube_01_Convex.asset
+  artifactKey: Guid(df779bbd2c83c5b48ad81000b0d780c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_SpaceWalk_Tube_01_Convex.asset using Guid(df779bbd2c83c5b48ad81000b0d780c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6792055cd8428b0d3149561b8d6192') in 0.006990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016169 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Stairs_01_Convex.asset
+  artifactKey: Guid(e643606c50cc79f4dac0de1de4470fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Stairs_01_Convex.asset using Guid(e643606c50cc79f4dac0de1de4470fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f08e6b84987ba3fecef9d5ac92e23a') in 0.005992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/SM_Prop_Stairs_03_Collision.fbx
+  artifactKey: Guid(8bb4b836791467740ac8c64c961701da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/SM_Prop_Stairs_03_Collision.fbx using Guid(8bb4b836791467740ac8c64c961701da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfa063a1fe238fce6b5802b57c05125') in 0.011050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002428 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/SM_Prop_Stairs_04_Collision.fbx
+  artifactKey: Guid(8dfd4a5f51f75564c9c32ced76121331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/SM_Prop_Stairs_04_Collision.fbx using Guid(8dfd4a5f51f75564c9c32ced76121331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a82a75bd3a832bb47f0c728fa683ea') in 0.012235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Stairs_03_Convex.asset
+  artifactKey: Guid(ab00c21562258924c9de59382bbc4296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Stairs_03_Convex.asset using Guid(ab00c21562258924c9de59382bbc4296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50d79b8557cb80a77c76ef1a417cc15') in 0.008822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001697 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Table_01_Convex 1.asset
+  artifactKey: Guid(61e00fb6858c93e41a17ae66d5f342aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Table_01_Convex 1.asset using Guid(61e00fb6858c93e41a17ae66d5f342aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e110153ef6320641f91629d60c4751') in 0.017356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Base_Double_01_Convex.asset
+  artifactKey: Guid(f655f3a9a6a34774fbdb99d93dc3d657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Base_Double_01_Convex.asset using Guid(f655f3a9a6a34774fbdb99d93dc3d657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e803f4f06014a7f77f080933756e15b1') in 0.006574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Toilet_01_Convex.asset
+  artifactKey: Guid(474d6e5e082ca574d86dfc2d0b18d512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Toilet_01_Convex.asset using Guid(474d6e5e082ca574d86dfc2d0b18d512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5a01d2e37cbad17007aae7544f5a9c') in 0.009783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001809 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Base_Double_010_Convex.asset
+  artifactKey: Guid(7c0fa09cbf5490c4d82f1d7435b402f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Base_Double_010_Convex.asset using Guid(7c0fa09cbf5490c4d82f1d7435b402f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024742492a19fceb3cfc5d40a87d9412') in 0.005649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Base_Single_02_Convex 1.asset
+  artifactKey: Guid(6f12ff188bfde404b935a5d9712187ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Base_Single_02_Convex 1.asset using Guid(6f12ff188bfde404b935a5d9712187ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4b1cf668d0312c638ed701ced3437a') in 0.005868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Base_Single_05_Convex.asset
+  artifactKey: Guid(575423e4d8f57ee43bfcda690b56d749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Base_Single_05_Convex.asset using Guid(575423e4d8f57ee43bfcda690b56d749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e7973d086b9c1f529773796c54e0c3') in 0.006090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021204 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Base_Single_09_Convex.asset
+  artifactKey: Guid(c6570ed4684c2bf4eabd44c00b4ef15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Base_Single_09_Convex.asset using Guid(c6570ed4684c2bf4eabd44c00b4ef15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad4e510e6b6de3b709368ef0121c964') in 0.008017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.082770 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Large_01_Convex.asset
+  artifactKey: Guid(0278206bf8555d145857bf250f070f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Large_01_Convex.asset using Guid(0278206bf8555d145857bf250f070f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75830a9f4488033c32012476801e799b') in 0.006797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022315 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Large_02_Convex.asset
+  artifactKey: Guid(8c3470dd5336a8c429f81be215721f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Large_02_Convex.asset using Guid(8c3470dd5336a8c429f81be215721f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6789b11829a7e76b3c423b7a612736b8') in 0.007015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.026438 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Small_Ceiling_01_Convex.asset
+  artifactKey: Guid(042857f5450820c41ae8e3d7e749ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Small_Ceiling_01_Convex.asset using Guid(042857f5450820c41ae8e3d7e749ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec8d8110c792fd687abd74df3d18161') in 0.005900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Small_Floor_01_Convex 1.asset
+  artifactKey: Guid(38e029eef364f014f8a5f0ccaf60741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Turret_Small_Floor_01_Convex 1.asset using Guid(38e029eef364f014f8a5f0ccaf60741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180f768268a742aa729cf51edfd00a47') in 0.006714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.496499 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Wall_Panel_Small_02_Convex.asset
+  artifactKey: Guid(c53944360a87f774e918cc09a3f75300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Wall_Panel_Small_02_Convex.asset using Guid(c53944360a87f774e918cc09a3f75300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2e51519928d75be613c95e38e132fb') in 0.005675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009633 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Wires_01_Convex.asset
+  artifactKey: Guid(f1a73a2bd5359f249a861fd22c10502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Wires_01_Convex.asset using Guid(f1a73a2bd5359f249a861fd22c10502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ee15d9a732e6acbb636111dcf00da7') in 0.006310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009237 seconds.
+  path: Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Wires_04_Convex.asset
+  artifactKey: Guid(f2fc9dfdcc8245f4e83f48d76d145d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Models/Collision/Convex/SM_Prop_Wires_04_Convex.asset using Guid(f2fc9dfdcc8245f4e83f48d76d145d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d195fbf1140d27c65ae6120e2aedca') in 0.006163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.262994 seconds.
+  path: Assets/Parcial/prefabs/Asteroid Manager.prefab
+  artifactKey: Guid(5d0d1add19957c64d85bc8a4b655dd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parcial/prefabs/Asteroid Manager.prefab using Guid(5d0d1add19957c64d85bc8a4b655dd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8116f733202367958687259659bcc0') in 0.031300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
